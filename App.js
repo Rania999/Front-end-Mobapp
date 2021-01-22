@@ -5,6 +5,9 @@ import {encode} from 'base-64';
 import HomeScreen from './src/screens/Home';
 import Post from './src/components/Post';
 import feed from './assets/data/feed';
+import ShopsInfoScreen from './src/screens/Shops';
+
+
 
 const post1 = feed[0];
 
