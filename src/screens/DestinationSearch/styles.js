@@ -17,13 +17,11 @@ const styles = StyleSheet.create({
         backgroundColor : "lightgrey",
         padding : 5,
         borderRadius : 10,
-        
-
-
 
     },
     locationText : {
-        fontWeight : 20
+        fontSize :50,
+        color : "black"
     }
 
 });

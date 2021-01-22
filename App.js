@@ -4,8 +4,9 @@ import {encode} from 'base-64';
 
 import HomeScreen from './src/screens/Home';
 import Post from './src/components/Post';
-import feed from './assets/data/feed';
+import feed from './assets/data/feedShops';
 import ShopsInfoScreen from './src/screens/Shops';
+import SearchScreen from "./src/screens/DestinationSearch"
 
 
 
@@ -17,8 +18,8 @@ const KivAppA = () => {
     <StatusBar barStyle = "dark-content"/>
     <SafeAreaView>
 
-      <Post post = {post1}/>
-      <Post post = {feed[1]} />
+
+      <SearchScreen />
       
     </SafeAreaView>
 

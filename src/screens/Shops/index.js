@@ -1,8 +1,8 @@
 import React from "react";
 import {View, Text, Image, FlatList} from "react-native";
 import styles from "./styles.js";
-import feed from '../../../assets/data/feed';
-import Post from '../../components'
+import feed from '../../../assets/data/feedShops';
+import Post from '../../components/PostShops';
 
 const ShopsInfoScreen = (props) => {
 
