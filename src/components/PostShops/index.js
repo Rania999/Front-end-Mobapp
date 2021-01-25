@@ -4,12 +4,16 @@ import styles from "./styles.js";
 
 const Post = (props) => {
 
-    const post = props.post;
+    const post = props.post.item;
+
+    console.log(post.businessName);
+
     return (
         <View style = {styles.container}>
             <Image 
             source = {{uri : post.image}}
             style = {styles.image}/>
+            
             
             <Text style = {styles.businessName}> {post.businessName} </Text>
             <Text style = {styles.businessType}> {post.businessType} </Text>
@@ -24,3 +28,4 @@ const Post = (props) => {
 };
 
 export default Post;
+

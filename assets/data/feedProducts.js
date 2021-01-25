@@ -2,7 +2,7 @@ export default [{
     id : 0,
     image : 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Pomme_Ariane.jpg',
     name : "Pomme rouge",
-    price : 5.67 ,
+    price : 5.67,
     description : "Très bonnes"
     
 

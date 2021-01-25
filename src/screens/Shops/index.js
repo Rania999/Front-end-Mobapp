@@ -5,6 +5,7 @@ import feed from '../../../assets/data/feedShops';
 import Post from '../../components/PostShops';
 
 const ShopsInfoScreen = (props) => {
+    console.log(feed)
 
     const post = props.post;
     return (

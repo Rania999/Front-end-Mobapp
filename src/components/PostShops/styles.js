@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     },
     container : {
         margin : 20,
+        backgroundColor : "red"
     }, 
     businessType : {
         fontSize : 12
