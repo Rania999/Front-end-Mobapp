@@ -19,13 +19,16 @@ const Router = (props) => {
             
             <Stack.Navigator>
 
+             
             <Stack.Screen name = {"Login"} 
                 component = {LoginScreen}
-                options = {{title : "Connectez-vous !"}}/>  
+                options = {{title : "Connectez-vous !"}}/>
                 
             <Stack.Screen name = {"Home"} 
                 component = {HomeTabNavigator}
                 options = {{headerShown : false}}/>
+
+             
 
             <Stack.Screen name = {"Destination Search"} 
                 component = {DestinationSearchScreen}

@@ -1,18 +1,20 @@
 import React from "react";
-import {View, Text, Image} from "react-native";
+import {View, Text, Image,ImageBackground} from "react-native";
 import styles from "./styles.js";
+
 
 const Post = (props) => {
 
     const post = props.post.item;
 
-    console.log(post.businessName);
+    console.log(post.image);
 
     return (
         <View style = {styles.container}>
             <Image 
             source = {{uri : post.image}}
             style = {styles.image}/>
+            
             
             
             <Text style = {styles.businessName}> {post.businessName} </Text>

@@ -6,7 +6,7 @@ import {useNavigation} from "@react-navigation/native";
 
 const Post = (props) => {
 
-    const post = props.post;
+    const post = props.post.item;
     const [numberOfUnits, SetNumberOfUnits] = useState(0);
     const navigation = useNavigation();
     return (

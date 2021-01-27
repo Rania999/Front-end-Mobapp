@@ -2,30 +2,45 @@ import {Dimensions, StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
     image : {
-        width : "50%", 
-        aspectRatio: 3/2,
-        resizeMode : "cover",
-        borderRadius : 10
-
+        width : "50%",
+        height : 300,
+        aspectRatio :3/2,
+        resizeMode : 'stretch',
+        
+        position : 'absolute',
+        top : 0,
+        bottom : 0,
+        left : 300,
+        right : 0,
+        
     },
+
     container : {
-        margin : 20,
-        backgroundColor : "red"
+        height : 300,
+        width : 500,
+        margin : 50,
+        backgroundColor : "white"
     }, 
     businessType : {
-        fontSize : 12
+        fontSize : 14
     },
     businessName : {
-        fontSize : 12
+        fontSize : 14
     },
     pdv : {
-        fontSize : 12
+        position: 'absolute',
+        top : 10,
+
+        fontFamily : 'monospace',
+        fontSize : 15
     },
     address :{
-        fontSize : 12
+        fontFamily: 'sans-serif-thin',
+        fontSize : 14
     },
     addressDetail :{
-        fontSize : 12
+        fontFamily: 'sans-serif-thin',
+        fontSize : 14
     }
 
 });

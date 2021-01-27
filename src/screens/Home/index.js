@@ -15,7 +15,7 @@ const HomeScreen = (props) => {
     return (
         <View>
             <ImageBackground 
-            source = {require('../../../assets/images/fond_vert_orange.jpeg')} 
+            source = {require('../../../assets/images/CarteCarotte.png')} ss
             style = {styles.image}>
                 <Pressable style = {styles.searchButton}
             onPress = {() => navigation.navigate('Destination Search')}>
@@ -27,7 +27,7 @@ const HomeScreen = (props) => {
                     <Text style = {styles.buttonText}> Se déconnecter</Text>
                 </Pressable>
 
-                <Text style = {styles.title}> Nos magasins </Text>
+                <Text style = {styles.title}> Nos Magasins </Text>
 
 
 

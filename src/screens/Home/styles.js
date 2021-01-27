@@ -3,8 +3,8 @@ import {Dimensions, StyleSheet} from "react-native";
 const styles = StyleSheet.create({
     image : {
         width : "100%",
-        height : "100%",
-        resizeMode : "cover",
+        height : "110%",
+        resizeMode : "center",
         alignItems : "center",
         alignContent : "center",
         justifyContent : "center"
@@ -12,11 +12,13 @@ const styles = StyleSheet.create({
     },
 
     title : {
-        fontSize : 100,
-        fontWeight : "bold",
-        color : "white",
-        alignContent : "center",
-        justifyContent : "center"
+        fontFamily : "sans-serif-thin",
+        fontSize : 90,
+        alignItems:"center",
+        color : "black",
+       
+       top :200,
+       
     },
     button : {
         backgroundColor : "white",
