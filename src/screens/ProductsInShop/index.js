@@ -15,7 +15,9 @@ const ProductsInShopScreen = (props) => {
             data = {feedProducts}
             renderItem = { (item) => <Post post = {item}/> }
             />
+    
         </View>
+
     );
 
 };

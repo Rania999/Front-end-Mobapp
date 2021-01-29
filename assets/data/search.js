@@ -1,15 +1,15 @@
 export default [
     { 
         id : 0,
-        description : "Paris 5ème"
+        description : "Paris"
 
 },
     {   
         id : 1, 
-        description : "Paris 13ème"
+        description : "Lyon"
     },
 {
 
         id : 2,
-        description : "Hello"
+        description : "Marseille"
 }]

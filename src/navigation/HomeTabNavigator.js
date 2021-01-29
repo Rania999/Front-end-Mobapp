@@ -6,6 +6,7 @@ import ProductsInShop from "../screens/ProductsInShop";
 import DestinationSearchScreen from "../screens/DestinationSearch";
 import FavorisScreen from "../screens/Favoris";
 import InfosScreen from "../screens/Infos";
+import ExploreNavigator from "../navigation/ExploreNavigator";
 
 import { Component } from "react";
 import Fontisto from "react-native-vector-icons/Fontisto";

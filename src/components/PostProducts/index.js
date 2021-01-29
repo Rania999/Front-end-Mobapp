@@ -4,6 +4,7 @@ import styles from "./styles.js";
 import feedProduct from "../../../assets/data/feedProducts";
 import {useNavigation} from "@react-navigation/native";
 
+
 const Post = (props) => {
 
     const post = props.post.item;
@@ -13,13 +14,14 @@ const Post = (props) => {
         <View style = {styles.container}>
         <View style = {styles.row}>
             <Image 
-            source = {{uri : post.image}}
+            source = {{uri : post.Picture_link}}
             style = {styles.image}/>
 
             <View style = {styles.generalInfo}>
-                <Text style = {styles.nameProduct}> {post.name} </Text>
-                <Text style = {styles.price}> Prix: {post.price} euros </Text>
-                <Text style = {styles.description}> Le petit + : {post.description} </Text>
+                <Text style = {styles.nameProduct}> {post.Nom} </Text>
+                <Text style = {styles.price}> Prix: {post.Px_unite} euros </Text>
+                <Text style = {styles.description}> Le petit + : {post.Histoire} {post.Categorie} {post.Composition} {post.Valeurs} </Text>
+                <Text style = {styles.description}> {post.Type_vente} </Text>
             
 
             <View style = {styles.buttonContainer}>

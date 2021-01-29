@@ -34,6 +34,13 @@ const InfosScreen = (props) => {
 
             <Pressable 
             style = {styles.button}
+            onPress = {() => {navigation.navigate('Commandes')}}
+            >
+                <Text style = {styles.buttonText}> Mes commandes</Text>
+            </Pressable>
+
+            <Pressable 
+            style = {styles.button}
             >
                 <Text style = {styles.buttonText}> Mentions légales</Text>
             </Pressable>

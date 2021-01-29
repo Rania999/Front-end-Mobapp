@@ -10,6 +10,11 @@ import PanierScreen from "../screens/Panier";
 import InfosScreen from "../screens/Infos";
 import ProfileScreen from "../screens/Profile";
 import LoginScreen from "../screens/Login";
+import CommandesScreen from "../screens/Commandes";
+import SearchResultsScreen from "../screens/SearchResults";
+import SearchResultsTabNavigator from "./SearchResultsTabNavigator";
+import ExploreNavigator from "./ExploreNavigator";
+import FilterScreen from "../screens/Filters";
 
 const Stack = createStackNavigator();
 
@@ -19,16 +24,13 @@ const Router = (props) => {
             
             <Stack.Navigator>
 
-             
             <Stack.Screen name = {"Login"} 
                 component = {LoginScreen}
-                options = {{title : "Connectez-vous !"}}/>
+                options = {{title : "Connectez-vous !"}}/>  
                 
             <Stack.Screen name = {"Home"} 
                 component = {HomeTabNavigator}
                 options = {{headerShown : false}}/>
-
-             
 
             <Stack.Screen name = {"Destination Search"} 
                 component = {DestinationSearchScreen}
@@ -47,6 +49,10 @@ const Router = (props) => {
                 component = {PanierScreen}
                 options = {{title : "Votre panier"}}/>  
 
+            <Stack.Screen name = {"Commandes"} 
+                component = {CommandesScreen}
+                options = {{title : "Vos commandes"}}/>  
+
             <Stack.Screen name = {"Infos"} 
                 component = {InfosScreen}
                 options = {{title : "Vos informations"}}/>  
@@ -54,6 +60,14 @@ const Router = (props) => {
             <Stack.Screen name = {"Profile"} 
                 component = {ProfileScreen}
                 options = {{title : "Voilà vos informations perso"}}/>  
+
+            <Stack.Screen name = {"Search results"} 
+                component = {SearchResultsTabNavigator}
+                options = {{title : "Voilà les résultats de votre recherche"}}/>  
+
+            <Stack.Screen name = {"Filter"} 
+                component = {FilterScreen}
+                options = {{title : "Vos filtres"}}/> 
 
             
                 

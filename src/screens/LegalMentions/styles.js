@@ -1,15 +1,11 @@
 import {Dimensions, StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
-    image : {
-        width : "100%",
-        height : "100%",
-        resizeMode : "cover",
-        alignItems : "center",
-        alignContent : "center",
+    container : {
         justifyContent : "center"
 
     },
+
 
     title : {
         fontSize : 100,
