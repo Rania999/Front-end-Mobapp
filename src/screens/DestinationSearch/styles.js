@@ -14,16 +14,28 @@ const styles = StyleSheet.create({
 
     },
     iconContainer :{
+        
         backgroundColor : "lightgrey",
-        padding : 5,
+        padding : 10,
         borderRadius : 10,
+        height :70,
+        width :250,
+        justifyContent :"center",
+        alignContent :"center",
+        
 
     },
     locationText : {
-        fontSize :50,
-        color : "black"
-    }
-
+        fontSize :30,
+        fontFamily :"monospace",
+        color : "black",
+        
+    },
+    textInput :{
+        fontSize :40,
+        fontFamily :"sans-serif-condensed"
+        
+    },
 });
 
     export default styles;

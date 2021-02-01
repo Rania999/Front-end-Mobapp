@@ -15,10 +15,10 @@ const ProfileScreen = (props) => {
     return (
         <View>
             <ImageBackground 
-            source = {require('../../../assets/images/fond_vert_orange.jpeg')} 
+            source = {require('../../../assets/images/carotteordi.png')} 
             style = {styles.image}>
-                <Pressable > 
-                    <Text>Modifier mes informations</Text>
+                <Pressable style={styles.button} > 
+                    <Text style= {styles.text }>Modifier mes informations</Text>
                 </Pressable>
 
                  <Text style = {styles.attributs}>Nom : Michèle</Text>

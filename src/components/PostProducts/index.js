@@ -43,11 +43,11 @@ const Post = (props) => {
         <View style = {styles.generalInfo}>
                     <Pressable style = {styles.buttonPanier}
                     onPress = {() => {navigation.navigate('Home')}}>
-                        <Text> Ajouter au panier</Text>
+                        <Text style = {styles.text}> Ajouter au panier</Text>
                     </Pressable>
                     <Pressable style = {styles.buttonPanier}
                     onPress = {() => {navigation.navigate('Home')}}>
-                        <Text> Ajouter aux favoris</Text>
+                        <Text style = {styles.text}> Ajouter aux favoris</Text>
                     </Pressable>
                 </View>
         </View>

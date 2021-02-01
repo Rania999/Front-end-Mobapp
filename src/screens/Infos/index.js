@@ -10,41 +10,46 @@ const InfosScreen = (props) => {
 
     return (
         <View style = {styles.container}>
-            <Text style = {styles.title}>Voilà les infos perso</Text>
+           <ImageBackground 
+            source = {require('../../../assets/images/cons.png')} 
+            style = {styles.image}>
+           
+           
+            <Text style = {styles.title}>Information Personnelles</Text>
 
             <Pressable 
-            style = {styles.button}
+            style = {styles.button1}
             onPress = {() => {navigation.navigate('Profile')}}
             >
                 <Text style = {styles.buttonText}> Mon profil</Text>
             </Pressable>
 
             <Pressable 
-            style = {styles.button}
+            style = {styles.button2}
             >
                 <Text style = {styles.buttonText}> Mode de paiement</Text>
             </Pressable>
 
             <Pressable 
-            style = {styles.button}
+            style = {styles.button3}
             onPress = {() => {navigation.navigate('Panier')}}
             >
                 <Text style = {styles.buttonText}> Mon panier</Text>
             </Pressable>
 
             <Pressable 
-            style = {styles.button}
+            style = {styles.button4}
             onPress = {() => {navigation.navigate('Commandes')}}
             >
                 <Text style = {styles.buttonText}> Mes commandes</Text>
             </Pressable>
 
             <Pressable 
-            style = {styles.button}
+            style = {styles.button5}
             >
                 <Text style = {styles.buttonText}> Mentions légales</Text>
             </Pressable>
-
+            </ImageBackground>
         </View>
     );
 };

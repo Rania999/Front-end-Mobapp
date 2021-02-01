@@ -8,40 +8,69 @@ const styles = StyleSheet.create({
     },
    
     
-    button : {
+    button1 : {
         backgroundColor : "white",
         width : 200,
         borderRadius : 5,
-        alignItems : "center"
+        justifyContent:"center",
+        alignItems : "center",
+        position:"absolute",
+        top:500,
+        elevation :15,
+        height :40
+
     },
-    textInput : {
-        fontSize : 15
+    button2 : {
+        backgroundColor : "white",
+        width : 200,
+        borderRadius : 5,
+        justifyContent:"center",
+        alignItems : "center",
+        position:"absolute",
+        top:550,
+        elevation :15,
+        height :40
+    },
+
+    textInput1 : {
+        fontSize : 15,
+        position:"absolute",
+        top:420
+    },
+    textInput2 : {
+        fontSize : 15,
+        position:"absolute",
+        top:450
     },
     image : {
-        width : "80%",
+        width : "40%",
         height : "50%",
-        resizeMode : "cover",
+        resizeMode:"cover",
         alignItems : "center",
         alignContent : "center",
         justifyContent : "center",
-        
+        position:"relative",
+        top :120   
 
-    },
-
-    containerstyle :{
-        
-        justifyContent :"center"
     },
     
-    textStyle: {
-        fontFamily :"sans-serif-thin",
-        fontSize : 50,
-        fontWeight : "bold",
+    textStyle1: {
+        fontFamily :"sans-serif-medium",
+        fontSize : 60,
         color : "orange",
-        position :"relative",
-        top:50,
-        right:10
+        position :"absolute",
+        top:70,
+        left :80
          },
+     textStyle2: {
+            fontFamily :"sans-serif-medium",
+            fontSize : 60,
+            color : "green",
+            position :"absolute",
+            top:70  ,         
+            right: 50
+             },
+
 });
 
 export default styles;

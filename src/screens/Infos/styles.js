@@ -1,28 +1,94 @@
 import {Dimensions, StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
+    image :{
+        
+        top:500,
+        width : 400,
+        height:380,
+       resizeMode :'stretch',
+        alignItems : "center",
+        alignContent : "center",
+        justifyContent : "center"
+
+    },
+    
     container : {
-        margin : 100,
+        
         alignContent : "center",
         alignItems : "center"
     },
     title : {
-        fontSize : 30,
-        marginBottom : 20,
+        position:"absolute",
+        top :-470,
+        fontSize : 40,
+        color :"green",
+        fontFamily :"sans-serif-condensed",
+        width :410,
+        borderColor :"grey",
+        alignItems : "center",
+        borderWidth : 1,
+        borderRadius :5,
 
     },
 
-    button : {
+    button1 : {
+        position :"absolute",
+        top :-390,
         backgroundColor : "orange",
-        width : Dimensions.get("screen").width - 300,
-        height : Dimensions.get("screen").height /5 - 100,
+        width : 250,
+        height :  70,
         borderRadius : 5,
         alignItems : "center",
         justifyContent : "center",
-        margin : 5
+        
 
 
     },
+    button2 : {
+        position :"absolute",
+        top :-310,
+        backgroundColor : "orange",
+        width : 250,
+        height :  70,
+        borderRadius : 5,
+        alignItems : "center",
+        justifyContent : "center",
+        
+    },
+    button3 : {
+        position :"absolute",
+        top :-230,
+        backgroundColor : "orange",
+        width : 250,
+        height :  70,
+        borderRadius : 5,
+        alignItems : "center",
+        justifyContent : "center",
+    },
+    button4: {
+        position :"absolute",
+        top :-150,
+        backgroundColor : "orange",
+        width : 250,
+        height :  70,
+        borderRadius : 5,
+        alignItems : "center",
+        justifyContent : "center",
+        
+    },
+    button5 : {
+        position :"absolute",
+        top : -70,
+        backgroundColor : "orange",
+        width : 250,
+        height :  70,
+        borderRadius : 5,
+        alignItems : "center",
+        justifyContent : "center",
+    },   
+
+
     buttonText:{
         fontSize :20,
         alignContent : "center", 

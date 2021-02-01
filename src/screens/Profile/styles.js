@@ -2,8 +2,11 @@ import {Dimensions, StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
     image : {
+
         width : "100%",
-        height : "100%",
+        height : "90%",
+        position:"relative",
+        top: 100,
         resizeMode : "cover",
         alignItems : "center",
         alignContent : "center",
@@ -11,32 +14,27 @@ const styles = StyleSheet.create({
 
     },
 
-    title : {
-        fontSize : 100,
-        fontWeight : "bold",
-        color : "white",
-        alignContent : "center",
-        justifyContent : "center"
-    },
     button : {
         backgroundColor : "white",
-        width : Dimensions.get("screen").width - 300,
+        width : 300,
+        height: 50,
+        justifyContent : "center",
         borderRadius : 5,
-        alignItems : "center"
+        alignItems : "center",
+        elevation :15,
+        },
 
-
+    text :{
+        fontFamily :"sans-serif-medium",
+        fontSize :18,
+        
     },
-    buttonText:{
-        fontSize :16,
-        alignContent : "center", 
-        color : "black",
-        justifyContent :"center"
-
-    },
+    
     attributs : {
         fontSize: 16,
-        borderBottomColor : "blue",
-        margin : 10
+        fontFamily :"monospace",
+        backgroundColor : "white",
+        margin : 15
 
     },
     row : {

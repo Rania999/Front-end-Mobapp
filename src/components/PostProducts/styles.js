@@ -13,12 +13,16 @@ const styles = StyleSheet.create({
         width : "50%", 
         aspectRatio: 3/2,
         resizeMode : "cover",
-        borderRadius : 10
+        borderRadius : 10,
+        top: 20
 
     },
     nameProduct :{
-        fontWeight : "bold",
-        fontSize : 12,
+        fontFamily :"sans-serif-condensed",
+        fontSize : 20,
+        position:"absolute",
+        top:-175,
+        left : 300
     },
     description : {
         fontSize : 12,
@@ -26,10 +30,14 @@ const styles = StyleSheet.create({
     },
     price : {
         fontSize : 12,
+        position:"absolute",
+        top : -140,
+        left:300,
+        backgroundColor :"white"
     },
     button :{
         borderRadius : 15, 
-        borderWidth : 1,
+        borderWidth : 3,
         width : 30, 
         height : 30,
         justifyContent : "center",
@@ -41,8 +49,8 @@ const styles = StyleSheet.create({
         alignItems :"center",
         justifyContent : "space-between",
         flexDirection : "row",
-        borderBottomWidth : 1,
-        borderColor : "grey",
+        borderBottomWidth : 3,
+        borderColor : '#264a00',
         padding : 20,
         marginHorizontal :5
     },
@@ -51,17 +59,24 @@ const styles = StyleSheet.create({
         alignItems : "center"
     }, 
     buttonText : {
-        marginHorizontal : 20,
-        fontSize : 16
+        marginHorizontal :5,
+        fontSize : 20,
+        color :"black",
 
     },
     buttonPanier : {
+        backgroundColor :'#419c00',
         marginVertical : 10,
         borderRadius : 5,
         borderWidth : 2,
-        width : 120,
-        borderColor : "darkgrey"
-        
+        width : 150,
+        alignItems : "center",
+        borderColor : "darkgrey"  
+    },
+    
+    text:{
+        color: "white",
+        fontFamily :"sans-serif-condensed"
     }
 
 });
